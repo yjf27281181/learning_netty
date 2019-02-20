@@ -4,5 +4,5 @@ import server.KidsContext;
 import server.KidsRequest;
 
 public interface IRequestFilter {
-    public boolean filter(KidsContext ctx, KidsRequest req, boolean beforeOrAfter);
+    boolean filter(KidsContext ctx, KidsRequest req, boolean beforeOrAfter);
 }
